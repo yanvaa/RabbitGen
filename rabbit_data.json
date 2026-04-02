@@ -1,0 +1,150 @@
+{
+    "fertilities": [
+      {
+        "id": 0,
+        "description": {
+          "male": "Бесплодный",
+          "female": "Бесплодная"
+        },
+        "stats": {
+          "value": 0.0,
+          "min_kits": 0,
+          "max_kits": 0
+        }
+      },
+      {
+        "id": 1,
+        "description": {
+          "male": "Низкая фертильность",
+          "female": "Низкая фертильность"
+        },
+        "stats": {
+          "value": 0.3,
+          "min_kits": 1,
+          "max_kits": 1
+        }
+      },
+      {
+        "id": 2,
+        "description": {
+          "male": "Стандартная фертильность",
+          "female": "Стандартная фертильность"
+        },
+        "stats": {
+          "value": 0.7,
+          "min_kits": 3,
+          "max_kits": 4
+        }
+      },
+      {
+        "id": 3,
+        "description": {
+          "male": "Высокая фертильность",
+          "female": "Высокая фертильность"
+        },
+        "stats": {
+          "value": 0.9,
+          "min_kits": 5,
+          "max_kits": 6
+        }
+      },
+      {
+        "id": 4,
+        "description": {
+          "male": "Очень плодовитый",
+          "female": "Многодетная мать"
+        },
+        "stats": {
+          "value": 0.95,
+          "min_kits": 7,
+          "max_kits": 8
+        }
+      },
+      {
+        "id": 5,
+        "description": {
+          "male": "Легендарная плодовитость",
+          "female": "Легендарная плодовитость"
+        },
+        "stats": {
+          "value": 0.99,
+          "min_kits": 10,
+          "max_kits": 15
+        }
+      }
+    ],
+    "name_parts": {
+      "prefix": ["Fluffy", "Bunny", "Hopper", "Cottontail", "Thumper", "Fuzzy", "Jumpy", "Whiskers", "Velvet", "Puddles"],
+      "suffix": ["-berry", "-paw", "-whisk", "-bounce", "-fluff", "-nose", "-tail", "-ears", "-hop", "-snug"],
+      "nickname": ["Little", "Tiny", "Sweet", "Baby", "Snuggle", "Cuddly", "Happy", "Bouncy", "Soft", "Dizzy"],
+      "surname": ["McFluff", "Hopperson", "Longears", "Fuzzytail", "Bouncekins", "Flufferton", "Whiskerly", "Jumbly", "Puddlefoot", "Snugglewick"]
+    },
+    "health_states": [
+      {
+        "id": 0,
+        "descriptions": {
+          "healthy": "Цветущее здоровье",
+          "sick": "Лёгкое недомогание"
+        },
+        "hp_range": [80, 100],
+        "recovery_chance": 0.9
+      },
+      {
+        "id": 1,
+        "descriptions": {
+          "healthy": "Крепкое здоровье",
+          "sick": "Требуется отдых"
+        },
+        "hp_range": [60, 79],
+        "recovery_chance": 0.7
+      },
+      {
+        "id": 2,
+        "descriptions": {
+          "healthy": "Среднее состояние",
+          "sick": "Заметно болен"
+        },
+        "hp_range": [40, 59],
+        "recovery_chance": 0.5
+      },
+      {
+        "id": 3,
+        "descriptions": {
+          "healthy": "Слабое здоровье",
+          "sick": "Серьёзно болен"
+        },
+        "hp_range": [20, 39],
+        "recovery_chance": 0.3
+      },
+      {
+        "id": 10,
+        "descriptions": {
+          "healthy": "Плохое состояние",
+          "sick": "Критическое состояние"
+        },
+        "hp_range": [1, 19],
+        "recovery_chance": 0.1
+      }
+    ],
+    "longevity": [
+      {
+          "id": 0,
+          "description": "Короткоживущий",
+          "max_age": 3,
+          "hp_penalty": -5
+      },
+      {
+          "id": 1,
+          "description": "Средняя продолжительность",
+          "max_age": 7,
+          "hp_penalty": -3
+      },
+      {
+          "id": 2,
+          "description": "Долгожитель",
+          "max_age": 15,
+          "hp_penalty": -1
+      }
+  ]
+    
+  }
